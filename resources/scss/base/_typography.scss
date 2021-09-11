@@ -1,0 +1,55 @@
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+  
+
+
+$primary-font-family: 'Lato', sans-serif;
+$font-primary-weight: 300;
+$line-height: 1.45em;
+
+
+* {
+    font-family: $primary-font-family;
+    color: $secondary-theme-color;
+    box-sizing: border-box;
+  }
+
+  p {
+    line-height: $line-height;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+  
+.headline-primary {
+    color: $primary-theme-color;
+    margin-left: 10px;
+  }
+  
+  .headline-secondary {
+    font-weight: $font-primary-weight;
+    color: $secondary-theme-color;
+  }
+  
+  .link {
+    color: $theme-col-11;
+    font-weight: 700;
+  }
+  
+  .blockquote {
+    font-size: 1.5em;
+    font-weight: $font-primary-weight;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $border-left-theme-color;
+    border-radius: 5px;
+  }
+  
